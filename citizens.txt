@@ -1,0 +1,31 @@
+// Simple mrl file
+// For testing purposes
+
+parent = /citizen/needy
+
+raven
+{
+    congratz = list("Good job! You've shown those red eyes who's boss!",
+                    "Excellent! You've proven that you can be a hero. As a reward, \
+                     you can keep the sword. Good luck rescuing your brother!")
+
+    info = list("So you want to rescue your brother? That's a heroic aim, but you don't \
+                 look like a hero. Heroes have a lot at their disposal, and the basic \
+                 thing is skill and physical strength. To be a hero, you must first \
+                 learn not only how to fight but also how to fight effectively. Go and \
+                 defeat at least five red eyes. That should be enough for you for now.",
+
+                "You've learned how to fight, but that's not enough. Heroes are skillful \
+                 fighters. That means they know how to fight effectively. Your next task \
+                 is to learn how to be skillful. Take this sword, and defeat five green eyes.")
+
+    inProcess = list("What are you doing here? Go and learn the art of fighting.",
+                     "You still haven't defeated five green eyes.")
+
+    onYes = list("Good luck!", "As always, good luck!")
+    onNo = list("Ah I guess you need to build up some courage and confidence first.",
+                "You'll never be a hero if you don't have skills.")
+
+    quests = list(/quest/learning_to_fight, /quest/harder_training)
+    thanks = "Good luck rescuing your brother!"
+}
